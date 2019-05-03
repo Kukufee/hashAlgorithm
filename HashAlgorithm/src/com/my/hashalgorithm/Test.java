@@ -1,4 +1,4 @@
-package com.my.hashalgorithm;
+﻿package com.my.hashalgorithm;
 
 /**
  *
@@ -12,7 +12,6 @@ public class Test {
 		System.out.println(FNV1_32_HASH("127.0.0.1"));
 		System.out.println(FNV1_32_HASH("127.0.0.2"));
 		System.out.println(FNV1_32_HASH("127.0.0.3"));
-		System.out.println(FNV1_32_HASH("127.0.0.4"));
 	}
 	
 	private static Integer FNV1_32_HASH(String target) {
