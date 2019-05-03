@@ -13,6 +13,7 @@ public class Test {
 		System.out.println(FNV1_32_HASH("127.0.0.2"));
 		System.out.println(FNV1_32_HASH("127.0.0.3"));
 		//添加注释
+		//添加第二行注释
 	}
 	
 	private static Integer FNV1_32_HASH(String target) {
